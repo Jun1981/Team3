@@ -53,6 +53,9 @@ public:
 	int anime;//アニメーション
 	int anime_c;//アニメーションカウンタ
 
+	void real_adj();//リアル座標調整
+
+
 	//関数
 	void Init();//ミク変数初期化
 	void LoadImg();//自機画像読み込み

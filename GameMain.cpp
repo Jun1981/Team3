@@ -57,6 +57,9 @@ void LoadImg(){
 
 //計算メイン
 void Calc(){
+
+	//miku.real_adj();//位置データ調整
+
 	p_move();//プレイヤー計算
 	p_anime();//自キャラアニメーション	
 

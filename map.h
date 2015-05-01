@@ -44,7 +44,6 @@ public:
 
 	
 };
-extern MAP field;
 extern MAP map;
 
 extern void LoadMap1();//ベースマップ
@@ -53,4 +52,4 @@ extern void DrawMap();
 extern MHit bhit[1200];
 
 
-extern int mhit2[40][30];
+extern int mhit2[30][40];
